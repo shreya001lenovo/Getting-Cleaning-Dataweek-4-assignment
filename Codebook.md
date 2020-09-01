@@ -27,11 +27,11 @@ Y (10299 rows, 1 column) is created by merging y_train and y_test using rbind() 
 Subject (10299 rows, 1 column) is created by merging subject_train and subject_test using rbind() function
 Merged_Data (10299 rows, 563 column) is created by merging Subject, Y and X using cbind() function
 
-Extracts only the measurements on the mean and standard deviation for each measurement
-TidyData (10299 rows, 88 columns) is created by subsetting Merged_Data, selecting only columns: subject, code and the measurements on the mean and standard deviation (std) for each measurement
+Extracts only the measurements on the mean and standard deviation for each measurement.
+TidyData (10299 rows, 88 columns) is created by subsetting Merged_Data, selecting only columns: subject, code and the measurements on the mean and standard deviation (std) for each measurement.
 
-Uses descriptive activity names to name the activities in the data set
-Entire numbers in code column of the TidyData replaced with corresponding activity taken from second column of the activities variable
+Uses descriptive activity names to name the activities in the data set.
+Entire numbers in code column of the TidyData replaced with corresponding activity taken from second column of the activities variable.
 
 Appropriately labels the data set with descriptive variable names
 code column in TidyData renamed into activities
