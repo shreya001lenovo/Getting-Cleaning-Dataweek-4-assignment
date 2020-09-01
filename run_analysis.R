@@ -31,7 +31,7 @@ Y_total$activitylabel <- factor(Y_total$activity, labels = as.character(activity
 activitylabel <- Y_total[,-1]
 
 # 4. Appropriately labels the data set with descriptive variable names.
-colnames(X_total) <- variable_names[selected_var[,1],2]
+colnames(X_total) <-  variable_names[selected_var[,1],2]
 
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average
 # of each variable for each activity and each subject.
